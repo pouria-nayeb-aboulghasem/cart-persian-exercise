@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "IranYekan";
+  src:
+    url(./assets/fonts/iranyekanwebregularfanum.woff2) format("woff2"),
+    url(./assets/fonts/iranyekanwebregularfanum.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@theme {
+  --font-IranYekan: "IranYekan", sans-serif;
+}
+
+.cart-item::after {
+  content: "";
+  @apply absolute -bottom-3 left-[50%] translate-[-50%] w-full max-w-lg h-px bg-gray-300;
+}
+
+.cart-item:last-child::after {
+  @apply hidden;
+}

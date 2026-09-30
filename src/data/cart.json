@@ -1,0 +1,27 @@
+[
+  {
+    "id": 101,
+    "image": "microsoft-surface-laptop-4.jpg",
+    "title": "مایکروسافت سرفیس لپ‌تاپ ۴",
+    "feature": "نسل یازدهم - رم ۱۶ گیگابایتی DDR4 - SSD ۵۱۲ گیگابایتی",
+    "quantity": 2,
+    "price": 125000000
+  },
+  {
+    "id": 102,
+    "image": "microsoft-arc-mouse.jpg",
+    "title": "ماوس آرک مایکروسافت",
+    "feature": null,
+    "quantity": 1,
+    "price": 11500000
+  },
+
+  {
+    "id": 103,
+    "image": "microsoft-slim-pen-2.jpg",
+    "title": "مایکروسافت قلم باریک ۲",
+    "feature": null,
+    "quantity": 2,
+    "price": 17500000
+  }
+]
